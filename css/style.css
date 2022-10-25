@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+
+body{
+    font-family: 'Walter Turncoat', cursive;
+}
+#calendario {
+    width: 100%;
+}
+
+#calendario td,
+#calendario th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.LM {
+    background-color: blue;
+}
+
+.BD {
+    background-color: rgb(46, 93, 46);
+}
+
+.BDt {
+    background-color: rgb(126, 58, 80);
+}
+
+.ED {
+    background-color: rgb(102, 190, 219);
+}
+
+.FOL {
+    background-color: rgb(253, 114, 0);
+}
+
+.IE {
+    background-color: rgb(154, 233, 27);
+}
+
+.P {
+    background-color: rgb(201, 145, 42);
+}
+
+.SO {
+    background-color: rgb(255, 0, 0);
+}
+
+.black {
+    background-color: #000000;
+}
+
+#calendario th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
